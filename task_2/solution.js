@@ -11,7 +11,7 @@ let shippingSum;
     // то shippingSum присвоить значение 0
 if(productsSum == 0 || productsSum >= freeShippingMinSum){
     shippingSum = 0;
-    } else if(productsSum > 0 || productsSum < freeShippingMinSum) {
+    } else {
         shippingSum = shippingPrice
     }
     // если productsSum Больше или равна freeShippingMinSum,
