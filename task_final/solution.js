@@ -1,3 +1,4 @@
+
 // Исправьте функцию sendRequest
 // Аргументы функции:
 // - имя клиента
@@ -34,7 +35,7 @@
 // }
 
 function sendRequest(name, phone, address, goods, sum) {
-    let data = {goods: [], order: {}};
+    let data = {clients: name + phone, goods: [title, count], order: [address, sum]};
 
     let countOfGoods = goods.length;
 
