@@ -42,7 +42,8 @@ function sendRequest(name, phone, address, goods, sum) {
     for (let i = 0; i <= countOfGoods; i += 1) {
         data.goods.push(goods[i].title);
     }
-
+    data.goods.title = title;
+    data.goods.count = count;
     data.order.address = address;
     data.order.sum = name + phone + address + goods + sum;
 
