@@ -9,7 +9,6 @@ function parseProducts(json){
     let data = JSON.parse(json);
     // Верните как результат функции свойство products объекта data
     return data.products;
-}
 
 // Напишите функцию renderProductsCards(json)
    function renderProductsCards(json){ 
